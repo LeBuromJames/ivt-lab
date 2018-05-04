@@ -29,11 +29,7 @@ public class GT4500 implements SpaceShip {
   */
   @Override
   public boolean fireTorpedo(FiringMode firingMode) {
-Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.
-14 days ago
-L37
-Code SmellCriticalOpenNot assigned14min effort
-brain-overload
+
     boolean firingSuccess = false;
     if(firingMode == SINGLE){
         if (wasPrimaryFiredLast) {
